@@ -1,0 +1,19 @@
+#应用名
+spring:
+  application:
+    name: treeMainService
+#数据库
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    druid:
+      driver-class-name: com.mysql.jdbc.Driver
+      url: jdbc:mysql://127.0.0.1:3306/tree?chracterEncoding=utf8&useSSL=false&serverTimezone=UTC
+      username: root
+      password: dmgyz,chlry
+#服务配置
+server:
+  port: 7777
+  servlet:
+    context-path: /com.sky.tree_sit
+
+
